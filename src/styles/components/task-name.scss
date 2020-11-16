@@ -1,0 +1,12 @@
+.app-task-name {
+    display: inline-block;
+    font-size: $font-size-h2;
+    height: $font-size-h2;
+    margin: ($padding / 2) 0;
+    opacity: 0;
+    text-transform: uppercase;
+
+    &.is-active {
+        opacity: 1;
+    }
+}

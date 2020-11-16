@@ -1,0 +1,95 @@
+<div class="app-task-view" id="app-task-view">
+    <div class="app-task-view__header">
+        <div class="app-task-view__header-row">
+            <div class="app-task-view__header-col app-task-view__header-col--l">
+                {{>../components/task-name }}
+            </div>
+            <div class="app-task-view__header-col app-task-view__header-col--s">
+                <div class="app-task-view__actions">{{>../components/simple-link href="#/" label="Close" }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="app-task-view__content">
+        <div class="app-task-view__task" id="task-1">
+            <div class="app-task-view__task-description">
+                Make this code "sassy".
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-1/task-1 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-2">
+            <div class="app-task-view__task-description">
+                Uncomment the code and modify it (correct mistakes that were left), make text to decline in size.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-2/task-2 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-3">
+            <div class="app-task-view__task-description">
+                Make the colors change on a flip of a variable.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-3/task-3 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-4">
+            <div class="app-task-view__task-description">
+                Use a @for loop to recreate the same effect as lesson 2. Do not use predefined values, calculate them.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-4/task-4 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-5">
+            <div class="app-task-view__task-description">
+                Add a transition to the button. Control which parameter is changed via mixin.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-5/task-5 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-6">
+            <div class="app-task-view__task-description">
+                Create a function that accepts a list and then returns value of which values need to have transition applied. Make sure all three modified attributes are transitioned.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-6/task-6 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-7">
+            <div class="app-task-view__task-description">
+                Use bem modifier classes. Use built in sass color functions. Recolor all 5 items.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-7/task-7 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-8">
+            <div class="app-task-view__task-description">
+                Install style lint plugin for your IDE. Open webpack.config.js, uncomment StylelintPlugin. In line 33 Change sourcemap value to true. Relaunch npm start & fix lint errors.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-8/task-8 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-9">
+            <div class="app-task-view__task-description">
+                Open src/theme directory. Override selected variables from res directory to create a new theme.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-9/task-9 }}
+            </div>
+        </div>
+        <div class="app-task-view__task" id="task-10">
+            <div class="app-task-view__task-description">
+                Uncomment code & Extend it to change the color on hover.
+            </div>
+            <div class="app-task-view__task-wrapper">
+                {{> ../practice-tasks/task-10/task-10 }}
+            </div>
+        </div>
+    </div>
+</div>
